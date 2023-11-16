@@ -1,0 +1,1071 @@
+@charset "UTF-8";
+/*! modern-normalize v1.1.0 | MIT License | https://github.com/sindresorhus/modern-normalize */
+/*
+Document
+========
+*/
+/**
+Use a better box model (opinionated).
+*/
+*,
+::before,
+::after {
+  box-sizing: border-box;
+}
+
+/**
+1. Correct the line height in all browsers.
+2. Prevent adjustments of font size after orientation changes in iOS.
+3. Use a more readable tab size (opinionated).
+*/
+html {
+  line-height: 1.15; /* 1 */
+  -webkit-text-size-adjust: 100%; /* 2 */
+  -moz-tab-size: 4; /* 3 */
+  tab-size: 4; /* 3 */
+}
+
+/*
+Sections
+========
+*/
+/**
+1. Remove the margin in all browsers.
+2. Improve consistency of default fonts in all browsers. (https://github.com/sindresorhus/modern-normalize/issues/3)
+*/
+body {
+  margin: 0; /* 1 */
+  font-family: system-ui, -apple-system, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji"; /* 2 */
+}
+
+/*
+Grouping content
+================
+*/
+/**
+1. Add the correct height in Firefox.
+2. Correct the inheritance of border color in Firefox. (https://bugzilla.mozilla.org/show_bug.cgi?id=190655)
+*/
+hr {
+  height: 0; /* 1 */
+  color: inherit; /* 2 */
+}
+
+/*
+Text-level semantics
+====================
+*/
+/**
+Add the correct text decoration in Chrome, Edge, and Safari.
+*/
+abbr[title] {
+  text-decoration: underline dotted;
+}
+
+/**
+Add the correct font weight in Edge and Safari.
+*/
+b,
+strong {
+  font-weight: bolder;
+}
+
+/**
+1. Improve consistency of default fonts in all browsers. (https://github.com/sindresorhus/modern-normalize/issues/3)
+2. Correct the odd 'em' font sizing in all browsers.
+*/
+code,
+kbd,
+samp,
+pre {
+  font-family: ui-monospace, SFMono-Regular, Consolas, "Liberation Mono", Menlo, monospace; /* 1 */
+  font-size: 1em; /* 2 */
+}
+
+/**
+Add the correct font size in all browsers.
+*/
+small {
+  font-size: 80%;
+}
+
+/**
+Prevent 'sub' and 'sup' elements from affecting the line height in all browsers.
+*/
+sub,
+sup {
+  font-size: 75%;
+  line-height: 0;
+  position: relative;
+  vertical-align: baseline;
+}
+
+sub {
+  bottom: -0.25em;
+}
+
+sup {
+  top: -0.5em;
+}
+
+/*
+Tabular data
+============
+*/
+/**
+1. Remove text indentation from table contents in Chrome and Safari. (https://bugs.chromium.org/p/chromium/issues/detail?id=999088, https://bugs.webkit.org/show_bug.cgi?id=201297)
+2. Correct table border color inheritance in all Chrome and Safari. (https://bugs.chromium.org/p/chromium/issues/detail?id=935729, https://bugs.webkit.org/show_bug.cgi?id=195016)
+*/
+table {
+  text-indent: 0; /* 1 */
+  border-color: inherit; /* 2 */
+}
+
+/*
+Forms
+=====
+*/
+/**
+1. Change the font styles in all browsers.
+2. Remove the margin in Firefox and Safari.
+*/
+button,
+input,
+optgroup,
+select,
+textarea {
+  font-family: inherit; /* 1 */
+  font-size: 100%; /* 1 */
+  line-height: 1.15; /* 1 */
+  margin: 0; /* 2 */
+}
+
+/**
+Remove the inheritance of text transform in Edge and Firefox.
+*/
+button,
+select {
+  text-transform: none;
+}
+
+/**
+Correct the inability to style clickable types in iOS and Safari.
+*/
+button,
+[type=button],
+[type=reset],
+[type=submit] {
+  -webkit-appearance: button;
+}
+
+/**
+Remove the inner border and padding in Firefox.
+*/
+::-moz-focus-inner {
+  border-style: none;
+  padding: 0;
+}
+
+/**
+Restore the focus styles unset by the previous rule.
+*/
+:-moz-focusring {
+  outline: 1px dotted ButtonText;
+}
+
+/**
+Remove the additional ':invalid' styles in Firefox.
+See: https://github.com/mozilla/gecko-dev/blob/2f9eacd9d3d995c937b4251a5557d95d494c9be1/layout/style/res/forms.css#L728-L737
+*/
+:-moz-ui-invalid {
+  box-shadow: none;
+}
+
+/**
+Remove the padding so developers are not caught out when they zero out 'fieldset' elements in all browsers.
+*/
+legend {
+  padding: 0;
+}
+
+/**
+Add the correct vertical alignment in Chrome and Firefox.
+*/
+progress {
+  vertical-align: baseline;
+}
+
+/**
+Correct the cursor style of increment and decrement buttons in Safari.
+*/
+::-webkit-inner-spin-button,
+::-webkit-outer-spin-button {
+  height: auto;
+}
+
+/**
+1. Correct the odd appearance in Chrome and Safari.
+2. Correct the outline style in Safari.
+*/
+[type=search] {
+  -webkit-appearance: textfield; /* 1 */
+  outline-offset: -2px; /* 2 */
+}
+
+/**
+Remove the inner padding in Chrome and Safari on macOS.
+*/
+::-webkit-search-decoration {
+  -webkit-appearance: none;
+}
+
+/**
+1. Correct the inability to style clickable types in iOS and Safari.
+2. Change font properties to 'inherit' in Safari.
+*/
+::-webkit-file-upload-button {
+  -webkit-appearance: button; /* 1 */
+  font: inherit; /* 2 */
+}
+
+/*
+Interactive
+===========
+*/
+/*
+Add the correct display in Chrome and Safari.
+*/
+summary {
+  display: list-item;
+}
+
+html,
+body {
+  font-family: "Russo One", sans-serif;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
+
+/* Атрибути головного контейнеру сайту */
+.container {
+  padding-left: 24px;
+  padding-right: 24px;
+  margin-left: auto;
+  margin-right: auto;
+}
+@media screen and (max-width: 767px) {
+  .container {
+    max-width: 450px;
+  }
+}
+@media screen and (min-width: 768px) {
+  .container {
+    width: 738px;
+  }
+}
+@media screen and (min-width: 1200px) {
+  .container {
+    width: 1170px;
+  }
+}
+
+.section_1 {
+  background-image: url(../image/section_1/star.png);
+  background-color: #333087;
+}
+@media screen and (max-width: 767px) {
+  .section_1 {
+    padding: 30px 22px 30px 22px;
+  }
+}
+@media screen and (min-width: 768px) {
+  .section_1 {
+    padding: 45px 26px 50px 22px;
+  }
+}
+@media screen and (min-width: 1200px) {
+  .section_1 {
+    padding: 45px 26px 50px 22px;
+  }
+}
+@media screen and (max-width: 767px) {
+  .section_1__container__text {
+    display: block;
+  }
+}
+@media screen and (min-width: 1200px) {
+  .section_1__container__text {
+    display: flex;
+  }
+}
+@media screen and (max-width: 767px) {
+  .section_1__logo {
+    width: 160px;
+    margin: 0 auto;
+  }
+}
+@media screen and (min-width: 768px) {
+  .section_1__logo {
+    width: 210px;
+    margin: 0 auto;
+  }
+}
+@media screen and (min-width: 1200px) {
+  .section_1__logo {
+    width: 250px;
+  }
+}
+.section_1__title {
+  color: #fff;
+}
+@media screen and (max-width: 767px) {
+  .section_1__title {
+    text-align: center;
+    font-size: 26px;
+    margin-top: 40px;
+    margin-bottom: 40px;
+  }
+}
+@media screen and (min-width: 768px) {
+  .section_1__title {
+    text-align: center;
+    font-size: 38px;
+    margin-top: 40px;
+    margin-bottom: 40px;
+  }
+}
+@media screen and (min-width: 1200px) {
+  .section_1__title {
+    width: 100%;
+    font-size: 57px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: 1.04px;
+    text-align: center;
+  }
+}
+@media screen and (min-width: 1200px) {
+  .section_1__title span {
+    color: #fff;
+    text-transform: uppercase;
+  }
+}
+@media screen and (min-width: 768px) {
+  .section_1__container__img_list {
+    margin: 46px 0;
+  }
+}
+@media screen and (min-width: 1200px) {
+  .section_1__container__img_list {
+    display: flex;
+    margin-top: 40px;
+    margin-bottom: 46px;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .section_1-list--img {
+    margin: 0 auto;
+  }
+}
+@media screen and (min-width: 1200px) {
+  .section_1-list--img {
+    width: 375px;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  .item__left {
+    padding-top: 185px;
+    margin-right: -147px;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .section_1__list__about {
+    display: block;
+    text-align: center;
+  }
+}
+@media screen and (min-width: 768px) {
+  .section_1__list__about {
+    display: flex;
+    gap: 30px;
+    justify-content: center;
+    align-items: center;
+  }
+}
+@media screen and (min-width: 1200px) {
+  .section_1__list__about {
+    display: flex;
+    justify-content: space-between;
+  }
+}
+@media screen and (max-width: 767px) {
+  .section_1__list__about-title {
+    font-size: 14px;
+    margin: 20px 0;
+    color: #fffffc;
+    text-transform: uppercase;
+  }
+}
+@media screen and (min-width: 768px) {
+  .section_1__list__about-title {
+    text-transform: uppercase;
+    color: #fffffc;
+  }
+}
+@media screen and (min-width: 1200px) {
+  .section_1__list__about-title {
+    height: 52.5px;
+    margin: 0.5px 0 49.5px 102.5px;
+    font-family: Russo One;
+    font-size: 26px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: 1.95px;
+    text-align: left;
+    color: #fffffc;
+    text-transform: uppercase;
+    display: block;
+  }
+}
+.section_1__list__about-title-span {
+  text-transform: lowercase;
+}
+@media screen and (min-width: 768px) {
+  .section_1__list__about-title-span {
+    margin-top: 10px;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  .section_1__list__about-svg {
+    display: flex;
+    margin-top: 30px;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .section_1__item__about {
+    width: 300px;
+  }
+}
+@media screen and (min-width: 1200px) {
+  .section_1__item__about {
+    width: 490px;
+  }
+}
+
+.section_1__Container-footer {
+  color: #fffffc;
+}
+@media screen and (max-width: 767px) {
+  .section_1__Container-footer {
+    display: flex;
+    gap: 10px;
+    align-items: center;
+    justify-content: center;
+  }
+}
+@media screen and (min-width: 768px) {
+  .section_1__Container-footer {
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    display: flex;
+  }
+}
+@media screen and (min-width: 1200px) {
+  .section_1__Container-footer {
+    display: flex;
+    justify-content: space-around;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .section_1-text-left {
+    font-size: 14px;
+  }
+}
+@media screen and (min-width: 768px) {
+  .section_1-text-left {
+    width: 300px;
+    position: relative;
+    padding-left: 60px;
+  }
+}
+@media screen and (min-width: 1200px) {
+  .section_1-text-left {
+    position: relative;
+    font-family: Russo One;
+    font-size: 18.5px;
+    letter-spacing: 1.39px;
+    text-align: center;
+    color: #fffffc;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .section_1-text-left::after {
+    display: none;
+  }
+}
+@media screen and (min-width: 768px) {
+  .section_1-text-left::after {
+    content: "";
+    height: 50px;
+    width: 100px;
+    display: block;
+    background: url(../image/section_1/3.png);
+    background-repeat: no-repeat;
+    position: absolute;
+    left: 0;
+    top: -20px;
+  }
+}
+@media screen and (min-width: 1200px) {
+  .section_1-text-left::after {
+    content: "";
+    height: 50px;
+    width: 100px;
+    display: block;
+    background: url(../image/section_1/3.png);
+    background-repeat: no-repeat;
+    position: absolute;
+    left: -14px;
+    top: -20px;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .section_1-text-right {
+    font-size: 14px;
+  }
+}
+@media screen and (min-width: 768px) {
+  .section_1-text-right {
+    width: 300px;
+    position: relative;
+    padding-left: 74px;
+  }
+}
+@media screen and (min-width: 1200px) {
+  .section_1-text-right {
+    position: relative;
+    height: 14px;
+    object-fit: contain;
+    font-family: Russo One;
+    font-size: 18.5px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: 1.39px;
+    text-align: center;
+    color: #fffffc;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .section_1-text-right::after {
+    display: none;
+  }
+}
+@media screen and (min-width: 768px) {
+  .section_1-text-right::after {
+    content: "";
+    display: block;
+    background: url(../image/section_1/2.png);
+    background-repeat: no-repeat;
+    width: 200px;
+    height: 67px;
+    position: absolute;
+    top: -28px;
+    left: 0;
+  }
+}
+@media screen and (min-width: 1200px) {
+  .section_1-text-right::after {
+    content: "";
+    display: block;
+    background: url(../image/section_1/2.png);
+    background-repeat: no-repeat;
+    width: 200px;
+    height: 67px;
+    position: absolute;
+    top: -32px;
+    left: 21px;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .section_2 {
+    padding: 30px 22px 30px 22px;
+  }
+}
+@media screen and (min-width: 768px) {
+  .section_2 {
+    padding: 45px 26px 50px 22px;
+  }
+}
+@media screen and (min-width: 1200px) {
+  .section_2 {
+    padding: 45px 26px 50px 22px;
+    background-color: #fff;
+  }
+}
+@media screen and (max-width: 767px) {
+  .section_2-img {
+    height: 200px;
+    max-width: 380px;
+    width: 100%;
+  }
+}
+@media screen and (min-width: 1200px) {
+  .section_2-img {
+    width: 900px;
+    display: block;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .section_2_container-img {
+    position: relative;
+  }
+}
+@media screen and (min-width: 768px) {
+  .section_2_container-img {
+    position: relative;
+  }
+}
+@media screen and (min-width: 1200px) {
+  .section_2_container-img {
+    position: relative;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .section_2_container-img::after {
+    content: "Чохол з білої мікрофібри";
+    font-size: 12px;
+    font-family: Russo One;
+    position: absolute;
+    top: 60px;
+    right: -60px;
+    width: 135px;
+  }
+}
+@media screen and (min-width: 768px) {
+  .section_2_container-img::after {
+    display: none;
+  }
+}
+@media screen and (min-width: 1200px) {
+  .section_2_container-img::after {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .section_2_container-img::before {
+    content: "Хлопкопон";
+    font-size: 12px;
+    font-family: Russo One;
+    position: absolute;
+    top: 160px;
+    right: -10px;
+  }
+}
+@media screen and (min-width: 768px) {
+  .section_2_container-img::before {
+    display: none;
+  }
+}
+@media screen and (min-width: 1200px) {
+  .section_2_container-img::before {
+    display: none;
+  }
+}
+
+.section_2__text-top {
+  position: absolute;
+  font-family: Russo One;
+  font-size: 18.5px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: 0.93px;
+  text-align: left;
+  color: #1d1d1b;
+  width: 140px;
+}
+@media screen and (max-width: 767px) {
+  .section_2__text-top {
+    display: none;
+  }
+}
+@media screen and (min-width: 768px) {
+  .section_2__text-top {
+    top: 104px;
+    right: 11px;
+  }
+}
+@media screen and (min-width: 1200px) {
+  .section_2__text-top {
+    top: 152px;
+    right: 300px;
+  }
+}
+
+.section_2__text-bottom {
+  position: absolute;
+  font-family: Russo One;
+  font-size: 18.5px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: 0.93px;
+  text-align: left;
+  color: #1d1d1b;
+  width: 140px;
+}
+@media screen and (max-width: 767px) {
+  .section_2__text-bottom {
+    display: none;
+  }
+}
+@media screen and (min-width: 768px) {
+  .section_2__text-bottom {
+    bottom: 44px;
+    right: 12px;
+  }
+}
+@media screen and (min-width: 1200px) {
+  .section_2__text-bottom {
+    bottom: 58px;
+    right: 300px;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .section_3 {
+    padding: 30px 22px 30px 22px;
+  }
+}
+@media screen and (min-width: 768px) {
+  .section_3 {
+    padding: 45px 26px 50px 22px;
+  }
+}
+@media screen and (min-width: 1200px) {
+  .section_3 {
+    padding: 50px 26px 39px 22px;
+    background-color: #fff;
+  }
+}
+@media screen and (min-width: 768px) {
+  .section_3__item {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin-top: 30px;
+  }
+}
+@media screen and (min-width: 1200px) {
+  .section_3__item {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+  }
+}
+@media screen and (min-width: 768px) {
+  .section_3__item:nth-child(2n) {
+    display: flex;
+    flex-direction: row-reverse;
+  }
+}
+@media screen and (min-width: 1200px) {
+  .section_3__item:nth-child(2n) {
+    display: flex;
+    flex-direction: row-reverse;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .section_3__list {
+    margin: 0 auto;
+    display: block;
+  }
+}
+@media screen and (max-width: 767px) {
+  .section_3__list-img {
+    max-width: 320px;
+    margin: 0 auto;
+    margin-top: 30px;
+  }
+}
+@media screen and (min-width: 768px) {
+  .section_3__list-img {
+    width: 250px;
+  }
+}
+@media screen and (min-width: 1200px) {
+  .section_3__list-img {
+    width: 450px;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .section_3__list__wrapper {
+    width: 240px;
+    margin: 0 auto;
+  }
+}
+@media screen and (min-width: 768px) {
+  .section_3__list__wrapper {
+    width: 450px;
+    margin-left: 20px;
+  }
+}
+@media screen and (min-width: 1200px) {
+  .section_3__list__wrapper {
+    width: 814px;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .section_3__list__wrapper:nth-child(2n) {
+    margin-right: 20px;
+  }
+}
+.section_3__list_title {
+  color: #e27601;
+}
+@media screen and (max-width: 767px) {
+  .section_3__list_title {
+    text-align: center;
+    font-size: 14px;
+    margin-top: 10px;
+  }
+}
+@media screen and (min-width: 1200px) {
+  .section_3__list_title {
+    font-family: Russo One;
+    font-size: 18.5px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.14;
+    letter-spacing: normal;
+    text-align: left;
+    margin-bottom: 10px;
+    width: 426px;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .section_3_text__about {
+    text-align: center;
+  }
+}
+.section_4 {
+  background-color: #333087;
+  background-image: url(../image/section_4/sky.png);
+  color: #fff;
+  text-align: center;
+}
+@media screen and (max-width: 767px) {
+  .section_4 {
+    padding: 30px 22px 30px 22px;
+  }
+}
+@media screen and (min-width: 768px) {
+  .section_4 {
+    padding: 45px 26px 50px 22px;
+  }
+}
+@media screen and (min-width: 1200px) {
+  .section_4 {
+    padding: 40px 0px 200px 0px;
+  }
+}
+@media screen and (max-width: 767px) {
+  .section_4-title {
+    margin-bottom: 30px;
+  }
+}
+@media screen and (min-width: 1200px) {
+  .section_4-title {
+    font-family: Russo One;
+    font-size: 38.5px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: 0.96px;
+    text-align: center;
+    margin-bottom: 30px;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .section_4-wrapper {
+    margin: 0 auto;
+  }
+}
+@media screen and (min-width: 768px) {
+  .section_4-wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 30px 0;
+  }
+}
+@media screen and (min-width: 1200px) {
+  .section_4-wrapper {
+    display: flex;
+    justify-content: space-around;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .section_4-container-about-img {
+    margin-bottom: 30px;
+    margin: 0 auto;
+  }
+}
+@media screen and (min-width: 1200px) {
+  .section_4-container-about-img {
+    width: 600px;
+    margin-bottom: 40px;
+    min-height: 328px;
+  }
+}
+
+.section_4-wrapper-list-title {
+  text-align: left;
+  color: #e27601;
+}
+@media screen and (max-width: 767px) {
+  .section_4-wrapper-list-title {
+    padding-bottom: 4px;
+    font-size: 14px;
+  }
+}
+@media screen and (min-width: 768px) {
+  .section_4-wrapper-list-title {
+    font-size: 18.5px;
+    padding-bottom: 2px;
+  }
+}
+@media screen and (min-width: 1200px) {
+  .section_4-wrapper-list-title {
+    font-family: Russo One;
+    font-size: 24px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    padding-bottom: 6px;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .section_4-list {
+    margin-bottom: 15px;
+  }
+}
+@media screen and (min-width: 1200px) {
+  .section_4-list {
+    display: flex;
+    gap: 10px;
+  }
+}
+
+.section_4-item {
+  border-radius: 8px;
+  background-color: #e27601;
+  font-family: Russo One;
+}
+@media screen and (max-width: 767px) {
+  .section_4-item {
+    margin-top: 4px;
+    padding: 4px 0;
+  }
+}
+@media screen and (min-width: 768px) {
+  .section_4-item {
+    font-size: 18.5px;
+    margin-top: 10px;
+    padding: 10px 0;
+  }
+}
+@media screen and (min-width: 1200px) {
+  .section_4-item {
+    width: 848px;
+    padding: 27px 31px;
+    margin-bottom: 10px;
+    font-size: 24px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: 0.46px;
+    text-align: center;
+    color: #fff;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .section_4_footer-title {
+    font-size: 24px;
+    font-size: 18.5px;
+    margin-top: 30px;
+  }
+}
+@media screen and (min-width: 1200px) {
+  .section_4_footer-title {
+    font-family: Russo One;
+    font-size: 38px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: 0.65px;
+    text-align: center;
+    color: #fff;
+    font-size: 38.5px;
+    margin-top: 34px;
+  }
+}
+@media screen and (min-width: 1200px) {
+  .section_4_footer-title-span {
+    text-transform: uppercase;
+  }
+}/*# sourceMappingURL=main.css.map */

@@ -1,0 +1,123 @@
+.section_2 {
+  @media screen and (max-width: 767px) {
+    padding: 30px 22px 30px 22px;
+  }
+  @media screen and (min-width: 768px) {
+    padding: 45px 26px 50px 22px;
+  }
+  @media screen and (min-width: 1200px) {
+    padding: 45px 26px 50px 22px;
+    background-color: #fff;
+  }
+  &-img {
+    @media screen and (max-width: 767px) {
+      height: 200px;
+      max-width: 380px;
+      width: 100%;
+    }
+    @media screen and (min-width: 768px) {
+    }
+    @media screen and (min-width: 1200px) {
+      width: 900px;
+      display: block;
+    }
+  }
+}
+
+.section_2_container-img {
+  @media screen and (max-width: 767px) {
+    position: relative;
+  }
+  @media screen and (min-width: 768px) {
+    position: relative;
+  }
+  @media screen and (min-width: 1200px) {
+    // margin-left: 200px;
+    position: relative;
+  }
+}
+
+.section_2_container-img::after {
+  @media screen and (max-width: 767px) {
+    content: "Чохол з білої мікрофібри";
+    font-size: 12px;
+    font-family: Russo One;
+    position: absolute;
+    top: 60px;
+    right: -60px;
+    width: 135px;
+  }
+  @media screen and (min-width: 768px) {
+    display: none;
+  }
+  @media screen and (min-width: 1200px) {
+    display: none;
+  }
+}
+
+.section_2_container-img::before {
+  @media screen and (max-width: 767px) {
+    content: "Хлопкопон";
+    font-size: 12px;
+    font-family: Russo One;
+    position: absolute;
+    top: 160px;
+    right: -10px;
+  }
+  @media screen and (min-width: 768px) {
+    display: none;
+  }
+  @media screen and (min-width: 1200px) {
+    display: none;
+  }
+}
+
+.section_2__text-top {
+  @media screen and (max-width: 767px) {
+    display: none;
+  }
+  @media screen and (min-width: 768px) {
+    top: 104px;
+    right: 11px;
+  }
+  @media screen and (min-width: 1200px) {
+    top: 152px;
+    right: 300px;
+  }
+  position: absolute;
+  font-family: Russo One;
+  font-size: 18.5px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: 0.93px;
+  text-align: left;
+  color: #1d1d1b;
+  width: 140px;
+}
+.section_2__text-bottom {
+  @media screen and (max-width: 767px) {
+    display: none;
+  }
+  @media screen and (min-width: 768px) {
+    bottom: 44px;
+    right: 12px;
+  }
+  @media screen and (min-width: 1200px) {
+    bottom: 58px;
+    right: 300px;
+  }
+
+  position: absolute;
+  font-family: Russo One;
+  font-size: 18.5px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: 0.93px;
+  text-align: left;
+  color: #1d1d1b;
+  width: 140px;
+}

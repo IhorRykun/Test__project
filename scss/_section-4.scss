@@ -3,13 +3,14 @@
     padding: 30px 22px 30px 22px;
   }
   @media screen and (min-width: 768px) {
-    padding: 45px 26px 50px 22px;
+    padding: 45px 26px 100px 22px;
   }
   @media screen and (min-width: 1200px) {
-    padding: 40px 0px 200px 0px;
+    padding: 40px 0px 100px 0px;
   }
   background-color: #333087;
   background-image: url(../image/section_4/sky.png);
+  background-size: cover;
 
   &-title {
     @media screen and (max-width: 767px) {
